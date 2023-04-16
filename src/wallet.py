@@ -24,7 +24,6 @@ class Wallet(object):
         """Adds the specified amount of money to the current Wallet object"""
         self.balance += amount
 
-
     def spend_money(self, amount):
         """Removes the specified amount of money from the current Wallet object"""
         self.spend_cash(amount)
